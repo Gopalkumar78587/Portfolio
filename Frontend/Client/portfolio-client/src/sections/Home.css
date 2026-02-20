@@ -1,0 +1,45 @@
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  background: linear-gradient(to right, #121212, #1e1e1e);
+  color: white;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.home h1 span {
+  color: var(--primary-color);
+}
+
+.home h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.home p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #cccccc;
+}
+
+.home-buttons button {
+  margin-right: 15px;
+  padding: 10px 20px;
+}
+
+.home-buttons .outline {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}

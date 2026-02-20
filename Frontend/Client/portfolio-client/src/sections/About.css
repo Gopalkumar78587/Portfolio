@@ -1,0 +1,34 @@
+.about {
+  background-color: #f7f7f7;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about-intro {
+  max-width: 700px;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.about-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  flex: 1;
+  min-width: 220px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-card h4 {
+  margin-bottom: 10px;
+  color: var(--primary-color);
+}
