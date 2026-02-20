@@ -1,0 +1,11 @@
+# Backend
+backend/target/
+backend/*.log
+backend/.idea/
+
+# Frontend (if React)
+frontend/node_modules/
+frontend/build/
+
+# System files
+.DS_Store
